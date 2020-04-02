@@ -1,0 +1,1 @@
+# အခန်း (၅) - Functional Component

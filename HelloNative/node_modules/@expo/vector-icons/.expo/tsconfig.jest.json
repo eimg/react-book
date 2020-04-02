@@ -1,0 +1,6 @@
+{
+  "extends": "/Users/charlescruzan/Desktop/vector-icons/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext"
+  }
+}
