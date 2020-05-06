@@ -16,14 +16,11 @@ class AddForm extends React.Component {
     priceRef = React.createRef();
 
     add = () =>{
-      let name = this.nameRef.current.value;
-      let price= this.priceRef.current.value;
+        let name = this.nameRef.current.value;
+        let price= this.priceRef.current.value;
 
-      this.props.add(name, price);
-
+        this.props.add(name, price);
     }
-
-
 
     render() {
         return (
@@ -63,7 +60,7 @@ class App extends React.Component {
                     {this.state.items.map(i => {
                         return (
                             <Item
-                                key = {i.id}
+                                key={i.id}
                                 id={i.id}
                                 name={i.name}
                                 price={i.price}
